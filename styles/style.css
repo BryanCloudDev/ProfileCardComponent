@@ -6,4 +6,33 @@
 html {
   font-size: 62.5%; }
 
+.main .sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+.main .container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-size: 5rem, 5rem;
+  background-repeat: no-repeat;
+  background-position: -40% -40%, right 100% 138%;
+  background-size: 100%; }
+  .main .container .card {
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 1.3rem;
+    width: 85%; }
+    .main .container .card .background {
+      width: 100%; }
+      .main .container .card .background img {
+        width: 100%; }
+    .main .container .card .profile-photo {
+      position: absolute; }
+
 /*# sourceMappingURL=style.css.map */

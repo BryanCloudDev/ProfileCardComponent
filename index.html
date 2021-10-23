@@ -11,27 +11,35 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="poster">
-      <img src="" alt="">
+  <main class="main">
+    <h1 class="sr-only">Profile card component</h1>
+    <div class="container">
+      <div class="card">
+        <div class="background">
+          <img src="./images/bg-pattern-card.svg" alt="" aria-hidden="true">
+        </div>
+        <div class="profile-photo">
+          <img src="./images/image-victor.jpg" alt="Profile photo">
+        </div>
+        <div class="user">
+          <h2 class="name">Victor Crest</h2>
+          <p class="page">26</p>
+          <p class="city">London</p>
+        </div>
+        <div class="followers">
+          <h3 class="title">80K</h3>
+          <p>Followers</p>
+        </div>
+        <div class="likes">
+          <h3 class="title">803K</h3>
+          <p>Likes</p>
+        </div>
+        <div class="photos">
+          <h3 class="title">1.4K</h3>
+          <p>Photos</p>
+        </div>
+      </div>
     </div>
-    <div class="user">
-      <p class="name">Victor Crest</p>
-      <p class="page">26</p>
-      <p class="city">London</p>
-    </div>
-    <div class="followers">
-      <div class="title">80K</div>
-      <p>Followers</p>
-    </div>
-    <div class="likes">
-      <div class="title">803K</div>
-      <p>Likes</p>
-    </div>
-    <div class="photos">
-      <div class="title">1.4K</div>
-      <p>Photos</p>
-    </div>
-  </div>
+  </main>
 </body>
 </html>
