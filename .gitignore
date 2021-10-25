@@ -17,4 +17,4 @@
 .prettierignore
 *.jpg
 *.png
-.vscode/
+.sass-cache/
