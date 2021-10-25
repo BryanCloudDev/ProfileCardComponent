@@ -6,83 +6,129 @@
 html {
   font-size: 62.5%; }
 
-.main .sr-only {
-  position: absolute;
-  left: -10000px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden; }
-.main .container {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.main {
+  transition: ease 3s;
   background-color: #19a2ae;
   background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-size: 637.5px, 637.5px;
   background-repeat: no-repeat;
-  background-position: top -358px left -403px, bottom -358px right -403px; }
-  .main .container .card {
-    font-family: "Kumbh Sans", sans-serif;
-    margin: 3rem auto;
-    overflow: hidden;
-    border-radius: 1.3rem;
-    width: 85%;
-    background: #fff;
-    font-size: 1.8rem;
-    text-align: center;
-    max-width: 31.87rem; }
-    .main .container .card .background {
-      width: 100%; }
-      .main .container .card .background img {
-        width: 100%; }
-    .main .container .card .box {
-      display: flex;
-      justify-content: center; }
-      .main .container .card .box .profile-photo {
-        margin-top: -6.3rem;
-        width: 11rem; }
-        .main .container .card .box .profile-photo img {
-          border: 0.6rem solid white;
-          border-radius: 100%;
-          vertical-align: top;
-          width: 100%; }
-    .main .container .card .user {
-      display: flex;
-      align-items: baseline;
-      justify-content: center;
-      margin-top: 2rem; }
-      .main .container .card .user .title {
-        font-size: 1.8rem;
-        color: #2d3248; }
-      .main .container .card .user .name {
-        margin-right: 1rem;
-        font-weight: 700; }
-      .main .container .card .user .age {
-        color: #969696;
-        font-size: 1.8rem; }
-    .main .container .card .city {
-      text-align: center;
-      margin-top: 1rem;
-      font-weight: 400;
-      color: #969696;
-      font-size: 1.4rem; }
-  .main .container .stats-container {
+  background-position: top -358px left -423px, bottom -358px right -403px; }
+  .main .sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden; }
+  .main .container {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin: 4.5rem 1rem 2rem; }
-    .main .container .stats-container .stats {
-      margin: 0rem 1.8rem; }
-      .main .container .stats-container .stats .title {
-        font-size: 1.8rem;
-        color: #2d3248;
-        font-weight: 700; }
-      .main .container .stats-container .stats p {
-        margin-top: 0.6rem;
-        font-size: 1.1rem;
+    align-items: center;
+    justify-content: center; }
+    .main .container .card {
+      font-family: "Kumbh Sans", sans-serif;
+      margin: 3rem auto;
+      overflow: hidden;
+      border-radius: 1.3rem;
+      width: 85%;
+      background: #fff;
+      font-size: 1.8rem;
+      text-align: center;
+      max-width: 31.87rem; }
+      .main .container .card .background {
+        width: 100%; }
+        .main .container .card .background img {
+          width: 100%; }
+      .main .container .card .box {
+        display: flex;
+        justify-content: center; }
+        .main .container .card .box .profile-photo {
+          margin-top: -6.3rem;
+          width: 11rem; }
+          .main .container .card .box .profile-photo img {
+            border: 0.6rem solid white;
+            border-radius: 100%;
+            vertical-align: top;
+            width: 100%; }
+      .main .container .card .user {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 2rem; }
+        .main .container .card .user .title {
+          font-size: 1.8rem;
+          color: #2d3248; }
+        .main .container .card .user .name {
+          margin-right: 1rem;
+          font-weight: 700; }
+        .main .container .card .user .age {
+          color: #969696;
+          font-size: 1.8rem; }
+      .main .container .card .city {
+        text-align: center;
+        margin-top: 1rem;
         font-weight: 400;
         color: #969696;
-        letter-spacing: 0.15rem; }
+        font-size: 1.4rem; }
+    .main .container .stats-container {
+      display: flex;
+      justify-content: center;
+      margin: 4.5rem 1rem 2rem; }
+      .main .container .stats-container .stats {
+        margin: 0rem 1.8rem; }
+        .main .container .stats-container .stats .title {
+          font-size: 1.8rem;
+          color: #2d3248;
+          font-weight: 700; }
+        .main .container .stats-container .stats p {
+          margin-top: 0.6rem;
+          font-size: 1.1rem;
+          font-weight: 400;
+          color: #969696;
+          letter-spacing: 0.15rem; }
+
+@media screen and (min-width: 460px) {
+  .main {
+    background-position: top -308px left -358px, bottom -308px right -358px; } }
+@media screen and (min-width: 550px) {
+  .main {
+    background-size: 64rem;
+    background-position: top -328px left -362px, bottom -308px right -358px; } }
+@media screen and (min-width: 575px) {
+  .main {
+    background-position: top -308px left -358px, bottom -308px right -358px; } }
+@media screen and (min-width: 640px) {
+  .main {
+    background-size: 67rem;
+    background-position: top -308px left -358px, bottom -358px right -358px; } }
+@media screen and (min-width: 768px) {
+  .main {
+    background-size: 70rem;
+    background-position: top -308px left -358px, bottom -368px right -328px; } }
+@media screen and (min-width: 850px) {
+  .main {
+    background-size: 73rem;
+    background-position: top -308px left -328px, bottom -418px right -278px; } }
+@media screen and (min-width: 950px) {
+  .main {
+    background-position: top -308px left -248px, bottom -418px right -218px; } }
+@media screen and (min-width: 1050px) {
+  .main {
+    background-size: 75rem;
+    background-position: top -308px left -248px, bottom -418px right -218px; } }
+@media screen and (min-width: 1150px) {
+  .main {
+    background-position: top -308px left -198px, bottom -418px right -178px; } }
+@media screen and (min-width: 1250px) {
+  .main {
+    background-size: 79rem;
+    background-position: top -308px left -198px, bottom -458px right -158px; } }
+@media screen and (min-width: 1350px) {
+  .main {
+    background-position: top -358px left -128px, bottom -458px right -118px; } }
+@media screen and (min-width: 1440px) {
+  .main {
+    background-size: 85rem;
+    background-position: top -413px left -136px, bottom -496px right -125px; } }
 
 /*# sourceMappingURL=style.css.map */
