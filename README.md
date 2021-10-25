@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-component-3columncard-using-html-and-sass-H03GkZRJ6)
+- Solution URL: (https://www.frontendmentor.io/solutions/profile-card-component-solution-using-sass-and-mobile-first-workflow-iI8Jq5BTf)
 - Live Site URL: (https://bryanclouddev.github.io/ProfileCardComponent/)
 
 ## My process
@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned on how to colocate 3 backgrounds, including 2 images and one color background in one container at the time, I was surprising for me since I knew I could use one at the time only per container.
+I learned on how to colocate 3 backgrounds, including 2 images and one color background in one container at the time, it was surprising for me since I knew I could use one at the time only per container.
 
 ```css
 .main {
@@ -63,9 +63,9 @@ I learned on how to colocate 3 backgrounds, including 2 images and one color bac
   background-repeat: no-repeat;
   background-position: top -358px left -423px, bottom -358px right -403px; }
 ```
-In here we can see the order that the backgrounds use in this case, if we use multiple they have to be seprated with a comma, then we have to make sure the order of the images we use, they will appear as in layers, the very first image will show up above the second image and the second one above the third image and so on.
+In here we can see the order that the backgrounds used in this case, if we use multiple they have to be seprated with a comma, then we have to make sure the order of the images we use, they will appear as in layers, the very first image will show up above the second image and the second one above the third image and so on.
 
-A really good challenge also was the fact of havnig this rounded profile picture with that white border and having it above the background image of the cover photo. I was able to solve it with a negative margin-top:
+A really good challenge also was the fact of having this rounded profile picture with that white border and having it above the background image of the cover photo. I was able to solve it with a negative margin-top:.
 
 ```css
 .main .container .card .box .profile-photo {
@@ -76,7 +76,7 @@ A really good challenge also was the fact of havnig this rounded profile picture
 Really good challenge, I learned a lot!
 ### Continued development
 
-I will definetely continue learning on how to make better responsive backgrounds without using so many meadiaqueries, I know there has to be a better way to do it and also focusing on how to better structure a page and naming classes.
+I will definetely continue learning on how to make better responsive backgrounds without using so many meadiaqueries, I know there has to be a better way to do it and I will also focus on how to better structure a page and naming classes.
 
 ## Acknowledgments
 I want to thank to the Youtube channel of [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) since I was able to find out in [this video](https://www.youtube.com/watch?v=Sj7Hs94uZjE) how to use multiple backgrounds in CSS for one container.
