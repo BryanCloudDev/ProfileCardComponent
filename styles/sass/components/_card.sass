@@ -10,22 +10,71 @@
         width: 100%
         display: flex
         align-items: center
+        justify-content: center
         background-color: $FirstColor
         background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg')
-        background-size: 5rem, 5rem
+        background-size:  637.5px, 637.5px// 170%
         background-repeat: no-repeat
-        background-position: top left, bottom right
-        background-size: 100%
+        background-position: top -358px left -403px, bottom -358px right -403px
         .card
-            margin: 0 auto
+            font-family: $Font
+            margin: 3rem auto
             overflow: hidden
             border-radius: 1.3rem
             width: 85%
+            background: #fff
+            font-size: $FontSize
+            text-align: center
+            max-width: 31.87rem
             .background
                 width: 100%
                 img
                     width: 100%
-            .profile-photo
-                position: absolute
-                
-            
+            .box
+                display: flex
+                justify-content: center
+                .profile-photo
+                    margin-top: -6.3rem
+                    width: 11rem
+                    img
+                        border: 0.6rem solid white
+                        border-radius: 100%
+                        vertical-align: top
+                        width: 100%
+            .user
+                display: flex
+                align-items: baseline
+                justify-content: center
+                margin-top: 2rem
+                .title
+                    font-size: $FontSize
+                    color: $SecondColor
+                .name
+                    margin-right: 1rem
+                    font-weight: 700
+                .age
+                    color: $FourthColor
+                    font-size: $FontSize
+            .city
+                text-align: center
+                margin-top: 1rem
+                font-weight: 400
+                color: $FourthColor
+                font-size: 1.4rem
+        .stats-container
+            display: flex
+            justify-content: center
+            margin: 4.5rem 1rem 2rem    
+            .stats
+                margin: 0rem 1.8rem
+                .title
+                    font-size: $FontSize
+                    color: $SecondColor
+                    font-weight: 700
+                p
+                    margin-top: 0.6rem
+                    font-size: 1.1rem
+                    font-weight: 400
+                    color: $FourthColor
+                    letter-spacing: 0.15rem
+
